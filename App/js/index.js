@@ -78,8 +78,6 @@ xui.Class('App', 'xui.Module',{
                 .setFontWeight("900")
                 .setCustomStyle({
                     "KEY" : {
-                        "color" : "#FF0000",
-                        "background-color" : "#FF0000"
                     },
                     "BACKGROUND" : {
                         "background-color" : "#FF0000"
@@ -111,16 +109,14 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_button9")
                 .setLeft("0em")
                 .setTop("0em")
-                .setWidth("12.038095238095238em")
-                .setHeight("3.7333333333333334em")
+                .setWidth("11.285714285714286em")
+                .setHeight("3.5em")
                 .setCaption("Save")
                 .setFontColor("#FFFFFF")
                 .setFontSize("14px")
                 .setFontWeight("900")
                 .setCustomStyle({
                     "KEY" : {
-                        "color" : "#3CB371",
-                        "background-color" : "#3CB371"
                     },
                     "BACKGROUND" : {
                         "color" : "#7CFC00",
