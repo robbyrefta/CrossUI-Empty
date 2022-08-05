@@ -99,7 +99,6 @@ xui.Class('App', 'xui.Module',{
                 .setHeight("3.7333333333333334em")
                 .setCaption("Save")
                 .setFontColor("#191970"),
-                .setColor("#191970"),
                 "B4"
             );
             
