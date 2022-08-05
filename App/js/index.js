@@ -74,7 +74,8 @@ xui.Class('App', 'xui.Module',{
                 .setWidth("12.038095238095238em")
                 .setHeight("3.7333333333333334em")
                 .setCaption("Cancel")
-                .setFontColor("#FF0000"),
+                .setFontColor("#FF0000")
+                .setFontWeight("900"),
                 "C4"
             );
             
@@ -86,7 +87,8 @@ xui.Class('App', 'xui.Module',{
                 .setWidth("12.038095238095238em")
                 .setHeight("3.7333333333333334em")
                 .setCaption("Export")
-                .setFontColor("#D2691E"),
+                .setFontColor("#D2691E")
+                .setFontWeight("900"),
                 "D4"
             );
             
@@ -98,7 +100,8 @@ xui.Class('App', 'xui.Module',{
                 .setWidth("12.038095238095238em")
                 .setHeight("3.7333333333333334em")
                 .setCaption("Save")
-                .setFontColor("#191970"),
+                .setFontColor("#191970")
+                .setFontWeight("900"),
                 "B4"
             );
             
