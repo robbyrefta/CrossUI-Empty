@@ -74,8 +74,17 @@ xui.Class('App', 'xui.Module',{
                 .setWidth("12.038095238095238em")
                 .setHeight("3.7333333333333334em")
                 .setCaption("Cancel")
-                .setFontColor("#FF0000")
-                .setFontWeight("900"),
+                .setFontColor("#FFFFFF")
+                .setFontWeight("900")
+                .setCustomStyle({
+                    "KEY" : {
+                        "color" : "#FF0000",
+                        "background-color" : "#FF0000"
+                    },
+                    "BACKGROUND" : {
+                        "background-color" : "#FF0000"
+                    }
+                }),
                 "C4"
             );
             
@@ -87,8 +96,13 @@ xui.Class('App', 'xui.Module',{
                 .setWidth("12.038095238095238em")
                 .setHeight("3.7333333333333334em")
                 .setCaption("Export")
-                .setFontColor("#D2691E")
-                .setFontWeight("900"),
+                .setFontColor("#FFFFFF")
+                .setFontWeight("900")
+                .setCustomStyle({
+                    "BACKGROUND" : {
+                        "background-color" : "#FF7F50"
+                    }
+                }),
                 "D4"
             );
             
@@ -100,8 +114,19 @@ xui.Class('App', 'xui.Module',{
                 .setWidth("12.038095238095238em")
                 .setHeight("3.7333333333333334em")
                 .setCaption("Save")
-                .setFontColor("#191970")
-                .setFontWeight("900"),
+                .setFontColor("#FFFFFF")
+                .setFontSize("14px")
+                .setFontWeight("900")
+                .setCustomStyle({
+                    "KEY" : {
+                        "color" : "#3CB371",
+                        "background-color" : "#3CB371"
+                    },
+                    "BACKGROUND" : {
+                        "color" : "#7CFC00",
+                        "background-color" : "#2E8B57"
+                    }
+                }),
                 "B4"
             );
             
