@@ -19,7 +19,90 @@ xui.Class('App', 'xui.Module',{
         iniComponents : function(){
             // [[Code created by CrossUI RAD Studio
             var host=this, children=[], append=function(child){children.push(child.get(0));};
-
+            
+            append(
+                xui.create("xui.UI.FormLayout")
+                .setHost(host,"xui_ui_formlayout1")
+                .setLeft("0em")
+                .setTop("0em")
+                .setWidth("60.49523809523809em")
+                .setHeight("19.65714285714286em")
+                .setLayoutData({
+                    "rows" : 5,
+                    "cols" : 5,
+                    "rowSetting" : {
+                        "1" : {
+                            "manualHeight" : 50
+                        },
+                        "2" : {
+                            "manualHeight" : 50
+                        },
+                        "3" : {
+                            "manualHeight" : 50
+                        },
+                        "4" : {
+                            "manualHeight" : 50
+                        },
+                        "5" : {
+                            "manualHeight" : 50
+                        }
+                    }
+                })
+            );
+            
+            host.xui_ui_formlayout1.append(
+                xui.create("xui.UI.Icon")
+                .setHost(host,"xui_ui_icon1")
+                .setLeft("0em")
+                .setTop("0em")
+                .setWidth("12.038095238095238em")
+                .setHeight("3.7333333333333334em")
+                .setImageClass("xuifont xui-icon-xui")
+                .setCustomStyle({
+                    "KEY" : {
+                        "color" : "#FF4500"
+                    }
+                }),
+                "C1"
+            );
+            
+            host.xui_ui_formlayout1.append(
+                xui.create("xui.UI.Button")
+                .setHost(host,"xui_ui_button7")
+                .setLeft("0em")
+                .setTop("0em")
+                .setWidth("12.038095238095238em")
+                .setHeight("3.7333333333333334em")
+                .setCaption("Cancel")
+                .setFontColor("#FF0000"),
+                "C4"
+            );
+            
+            host.xui_ui_formlayout1.append(
+                xui.create("xui.UI.Button")
+                .setHost(host,"xui_ui_button8")
+                .setLeft("0em")
+                .setTop("0em")
+                .setWidth("12.038095238095238em")
+                .setHeight("3.7333333333333334em")
+                .setCaption("Export")
+                .setFontColor("#D2691E"),
+                "D4"
+            );
+            
+            host.xui_ui_formlayout1.append(
+                xui.create("xui.UI.Button")
+                .setHost(host,"xui_ui_button9")
+                .setLeft("0em")
+                .setTop("0em")
+                .setWidth("12.038095238095238em")
+                .setHeight("3.7333333333333334em")
+                .setCaption("Save")
+                .setFontColor("#191970"),
+                .setColor("#191970"),
+                "B4"
+            );
+            
             return children;
             // ]]Code created by CrossUI RAD Studio
         },
